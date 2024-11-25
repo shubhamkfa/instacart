@@ -1,0 +1,23 @@
+{
+  "name": "instacart",
+  "version": "1.0.0",
+  "description": "Automating Instacart webside",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shubhamkfa/instacart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shubhamkfa/instacart/issues"
+  },
+  "homepage": "https://github.com/shubhamkfa/instacart#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.9.3",
+    "cypress": "^13.16.0",
+    "cypress-xpath": "^2.0.1"
+  }
+}

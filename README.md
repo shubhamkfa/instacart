@@ -1,2 +1,0 @@
-# instacart
-Automating Instacart webside

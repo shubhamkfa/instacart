@@ -1,0 +1,13 @@
+// cypress/support/index.js
+
+Cypress.on('uncaught:exception', (err, runnable) => {
+    // Check for the cross-origin script error message
+    if (err.message.includes('Script error.')) {
+      // Return false to prevent Cypress from failing the test
+      return false;
+    }
+  
+    // Otherwise, let Cypress handle the error normally
+    return true;
+  });
+  
