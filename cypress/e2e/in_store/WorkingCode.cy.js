@@ -1,5 +1,5 @@
 /// <reference types="cypress" /> 
-
+//if you need any help feel free to ping me - 8432932987
 describe('Capture Details of Randomly Selected Products and Verify Exact Match in Cart', () => {
   let productDetails = [];
   let totalPriceCaptured = 0; // Initialize total price for all products added to the cart
